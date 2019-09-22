@@ -1,0 +1,65 @@
+{
+  "alias":{
+    "CurrencyIdentifier":"uint32",
+    "EcoSystem": "uint8",
+    "IntegerEight": "uint64",
+    "IntegerFour": "uint32",
+    "IntegerTwo": "uint16",
+    "IntegerOne": "uint8",
+    "ListingIdentifier":"uint32",
+    "BitcoinAddress":"address",
+    "NumberOfCoins": "int64",
+    "PropertyType": "uint16",
+    "ResponseSubAction": "uint8",
+    "String255": "string255",
+    "TimePeriodInBlocks": "uint8",
+    "UTCDatetime": "uint64",
+    "TimePeriodInSeconds": "uint32",
+    "SellOfferSubAction": "uint8",
+    "MetadexSellOfferSubAction": "uint8",
+    "TransactionType": "uint16",
+    "TransactionVersion": "uint16"
+  },
+  "transaction":{
+    "simpleSend":[
+      "TransactionVersion",
+      "TransactionType",
+      "CurrencyIdentifier",
+      "NumberOfCoins"
+    ],
+    "sendToOwners": [
+      "TransactionVersion",
+      "TransactionType",
+      "CurrencyIdentifier",
+      "NumberOfCoins"
+    ],
+    "sellForBitcoins": [
+      "TransactionVersion",
+      "TransactionType",
+      "Currency",
+      "NumberOfCoins",
+      "TimePeriodInBlocks",
+      "NumberOfCoins",
+      "SellOfferSubAction"
+    ],
+    "purchaseWithBitcoins":[
+      "TransactionVersion",
+      "TransactionType",
+      "CurrencyIdentifier",
+      "NumberOfCoins"
+    ],
+    "sendIssuanceFixed":[
+      "TransactionVersion",
+      "TransactionType",
+      "EcoSystem",
+      "PropertyType",
+      "CurrencyIdentifier",
+      "String255",
+      "String255",
+      "String255",
+      "String255",
+      "String255",
+      "NumberOfCoins"
+    ]
+  }
+}

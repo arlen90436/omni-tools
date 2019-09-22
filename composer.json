@@ -1,0 +1,11 @@
+{
+    "require": {
+        "bitwasp/bitcoin": "^1.0",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "OmniTool\\": "omni.php/src/"
+        }
+    }    
+}
