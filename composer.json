@@ -1,4 +1,16 @@
 {
+    "name": "arlen/omni-tools",
+    "description": "PHP Omni USDT library with functions for transactions, signatures, serialization, Random/Deterministic ECDSA keys, blocks, RPC bindings",
+    "type": "library",
+    "homepage": "https://github.com/arlen90436/omni-tools",
+    "license": "Unlicense",
+    "authors": [
+      {
+        "name": "Arlen",
+        "homepage": "https://github.com/arlen90436",
+        "role": "Author"
+      }
+    ],
     "require": {
         "bitwasp/bitcoin": "^1.0",
         "guzzlehttp/guzzle": "^6.3"
